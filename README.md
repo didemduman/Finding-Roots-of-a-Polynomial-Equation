@@ -1,2 +1,4 @@
 # Bisection-Method
-A code that I wrote by using matlab language. It finds the root of f(x)=(x-1)^2 (x-2)(x-3) function and plots the graph pf different of ak, k, and f(ak).                                                
+ This is a code that I wrote by using matlab language. It finds the root of f(x)=(x-1)^2 (x-2)(x-3) function and plots the graph pf different of ak, k, and f(ak). 
+ The bisection method is used to find the roots of a polynomial equation approximetly. In the bisection method, we examine a closed interval. For example let us consider a f function which is defined on the closed interval [aa,ab], given with f(aa) and f(ab) have opposite signs. This method calls for a repeated halving of the interval[aa,ab], and each step located the half as ak. Then we can calculate ak by using ak=(aa+ab)/2  equation. If  f(ak1)=0,then ak1=ak; then f(ak1) has the same sign as either f(aa1) or f(ab1). If f(ak1) and f(aa1) have the same sign, then we set  aa2=ak1 and ab2=ab1. If f(ak1) and f(aa1) have opposite signs, then we set aa2=aa1 and ab2=ak1. We then reapply the process to the interval until f(ak)=0. 
+
